@@ -32,65 +32,6 @@ P1  Crawl trước
 P2  Crawl sau
 ```
 
-### Retail / Supermarket / Convenience
-
-#### phase1 | đã crawl
-
-- 7-Eleven | đã crawl
-- AEON Mall | đã crawl
-- AEON MaxValu | đã crawl
-- Annam Gourmet | đã crawl
-- Bách Hóa Xanh | đã crawl
-- Cheers | đã crawl
-- Circle K | đã crawl
-- Coop Food | đã crawl
-- Coopmart | đã crawl
-- Family Mart | đã crawl
-- Farmers Market | đã crawl
-- GO! | đã crawl
-- GS25 | đã crawl
-- Kingfoodmart | đã crawl
-- Lotte Mart | đã crawl
-- mini Go! | đã crawl
-- Ministop | đã crawl
-- MM Mega Market | đã crawl
-- Satrafoods | đã crawl
-- Tops Market | đã crawl
-- Vissan | đã crawl
-- WinMart | đã crawl
-- WinMart+ | đã crawl
-
-#### phase3 | chưa crawl
-
-- BRG Intershop | chưa crawl | P1
-- BRGMart | chưa crawl | P1
-- Co.opSmile | chưa crawl | P1
-- FujiMart | chưa crawl | P1
-- LanChi Mart | chưa crawl | P1
-- TH true mart | chưa crawl | P1
-
-### Pharmacy / Beauty / Health / Mother & Baby
-
-#### phase1 | đã crawl
-
-- Guardian | đã crawl
-- Matsumoto Kiyoshi | đã crawl
-- Nhà thuốc An Khang | đã crawl
-- Nhà thuốc Long Châu | đã crawl
-- Pharmacity | đã crawl
-- Watsons | đã crawl
-
-#### phase2 | đã crawl
-
-- AVAKids | đã crawl
-- Beauty Box | đã crawl
-- Bibo Mart | đã crawl
-- Con Cung | đã crawl
-- Hasaki | đã crawl
-- Kids Plaza | đã crawl
-- Medicare | đã crawl
-- Sociolla | đã crawl
-
 ### F&B / Beverage / Coffee / Tea
 
 #### phase1 | đã crawl
@@ -236,6 +177,65 @@ P2  Crawl sau
 - Brodard Bakery | chưa crawl | P1
 - Givral Bakery | chưa crawl | P2
 - Savouré Bakery | chưa crawl | P2
+
+### Retail / Supermarket / Convenience
+
+#### phase1 | đã crawl
+
+- 7-Eleven | đã crawl
+- AEON Mall | đã crawl
+- AEON MaxValu | đã crawl
+- Annam Gourmet | đã crawl
+- Bách Hóa Xanh | đã crawl
+- Cheers | đã crawl
+- Circle K | đã crawl
+- Coop Food | đã crawl
+- Coopmart | đã crawl
+- Family Mart | đã crawl
+- Farmers Market | đã crawl
+- GO! | đã crawl
+- GS25 | đã crawl
+- Kingfoodmart | đã crawl
+- Lotte Mart | đã crawl
+- mini Go! | đã crawl
+- Ministop | đã crawl
+- MM Mega Market | đã crawl
+- Satrafoods | đã crawl
+- Tops Market | đã crawl
+- Vissan | đã crawl
+- WinMart | đã crawl
+- WinMart+ | đã crawl
+
+#### phase3 | chưa crawl
+
+- BRG Intershop | chưa crawl | P1
+- BRGMart | chưa crawl | P1
+- Co.opSmile | chưa crawl | P1
+- FujiMart | chưa crawl | P1
+- LanChi Mart | chưa crawl | P1
+- TH true mart | chưa crawl | P1
+
+### Pharmacy / Beauty / Health / Mother & Baby
+
+#### phase1 | đã crawl
+
+- Guardian | đã crawl
+- Matsumoto Kiyoshi | đã crawl
+- Nhà thuốc An Khang | đã crawl
+- Nhà thuốc Long Châu | đã crawl
+- Pharmacity | đã crawl
+- Watsons | đã crawl
+
+#### phase2 | đã crawl
+
+- AVAKids | đã crawl
+- Beauty Box | đã crawl
+- Bibo Mart | đã crawl
+- Con Cung | đã crawl
+- Hasaki | đã crawl
+- Kids Plaza | đã crawl
+- Medicare | đã crawl
+- Sociolla | đã crawl
 
 ### Electronics / Mobile
 
