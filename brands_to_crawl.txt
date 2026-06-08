@@ -1,0 +1,93 @@
+# Phase 3 candidates, ordered by priority.
+# One brand name per line. Lines starting with # are ignored.
+
+# P1
+Brodard Bakery
+Cafe Amazon
+CoCo Fresh Tea & Juice
+Hồng Trà Ngô Gia
+Laha Coffee
+Laika Cafe
+Napoli Coffee
+Ông Bầu Coffee
+Fahasa
+Nhà sách Phương Nam
+Điện máy Chợ Lớn
+MediaMart
+Nguyễn Kim
+ShopDunk
+Aristino
+Biluxury
+Biti's
+Elise
+H&M
+Ivy Moda
+Uniqlo
+Zara
+Muji
+TokyoLife
+BRG Intershop
+BRGMart
+Co.opSmile
+Marukame Udon
+Mì Cay Sasin
+Mì Cay Seoul
+Nét Huế
+Phở 24
+Sukiya
+Tokyo Deli
+TH true mart
+FujiMart
+LanChi Mart
+
+# P2
+Givral Bakery
+Savouré Bakery
+Chagee
+Comebuy
+Heekcaa
+Hồng Trà Bông Trà
+Juice Box
+LaSiMi
+Là Việt Coffee
+Oola
+R&B Tea
+Rang Rang Coffee
+Smoovie
+Sunday Basic
+The Alley
+Three O'Clock
+Tiger Sugar
+Tươi Juice
+Xing Fu Tang
+Yi He Tang
+ADCBook
+Nhã Nam
+Nhà sách Cá Chép
+Biti's Hunter
+Nem Fashion
+Ashima
+BoGi Pizza
+Buk Buk
+Capricciosa
+Chang Kang Kung
+Cơm Niêu Sài Gòn
+Daruma
+Dodo Pizza
+Hoàng Yến Buffet
+Hoàng Yến Cuisine
+Hoàng Yến Hotpot
+Hutong
+iSushi
+Khao Lao
+Kpub
+Meiwei
+Pepper Lunch
+Phở Thìn by Sol
+Quán Bụi
+San Fu Lou
+Shogun
+Sumo Yakiniku
+Sushi Kei
+Tasaki BBQ
+Wrap & Roll

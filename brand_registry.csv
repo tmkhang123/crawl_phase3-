@@ -1,0 +1,88 @@
+﻿target_chain,search_query,name_aliases,name_blacklist,expected_count,concurrency,priority,notes
+Brodard Bakery,Brodard Bakery,Brodard Bakery,,,1,1,Generated from brands_to_crawl.txt
+Cafe Amazon,Cafe Amazon,Cafe Amazon,,,1,2,Generated from brands_to_crawl.txt
+CoCo Fresh Tea & Juice,CoCo Fresh Tea & Juice,CoCo Fresh Tea & Juice,,,1,3,Generated from brands_to_crawl.txt
+Hồng Trà Ngô Gia,Hồng Trà Ngô Gia,Hồng Trà Ngô Gia,,,1,4,Generated from brands_to_crawl.txt
+Laha Coffee,Laha Coffee,Laha Coffee,,,1,5,Generated from brands_to_crawl.txt
+Laika Cafe,Laika Cafe,Laika Cafe,,,1,6,Generated from brands_to_crawl.txt
+Napoli Coffee,Napoli Coffee,Napoli Coffee,,,1,7,Generated from brands_to_crawl.txt
+Ông Bầu Coffee,Ông Bầu Coffee,Ông Bầu Coffee,,,1,8,Generated from brands_to_crawl.txt
+Fahasa,Fahasa,Fahasa,,,1,9,Generated from brands_to_crawl.txt
+Nhà sách Phương Nam,Nhà sách Phương Nam,Nhà sách Phương Nam,,,1,10,Generated from brands_to_crawl.txt
+Điện máy Chợ Lớn,Điện máy Chợ Lớn,Điện máy Chợ Lớn,,,1,11,Generated from brands_to_crawl.txt
+MediaMart,MediaMart,MediaMart,,,1,12,Generated from brands_to_crawl.txt
+Nguyễn Kim,Nguyễn Kim,Nguyễn Kim,,,1,13,Generated from brands_to_crawl.txt
+ShopDunk,ShopDunk,ShopDunk,,,1,14,Generated from brands_to_crawl.txt
+Aristino,Aristino,Aristino,,,1,15,Generated from brands_to_crawl.txt
+Biluxury,Biluxury,Biluxury,,,1,16,Generated from brands_to_crawl.txt
+Biti's,Biti's,Biti's,,,1,17,Generated from brands_to_crawl.txt
+Elise,Elise,Elise,,,1,18,Generated from brands_to_crawl.txt
+H&M,H&M,H&M,,,1,19,Generated from brands_to_crawl.txt
+Ivy Moda,Ivy Moda,Ivy Moda,,,1,20,Generated from brands_to_crawl.txt
+Uniqlo,Uniqlo,Uniqlo,,,1,21,Generated from brands_to_crawl.txt
+Zara,Zara,Zara,,,1,22,Generated from brands_to_crawl.txt
+Muji,Muji,Muji,,,1,23,Generated from brands_to_crawl.txt
+TokyoLife,TokyoLife,TokyoLife,,,1,24,Generated from brands_to_crawl.txt
+BRG Intershop,BRG Intershop,BRG Intershop,,,1,25,Generated from brands_to_crawl.txt
+BRGMart,BRGMart,BRGMart,,,1,26,Generated from brands_to_crawl.txt
+Co.opSmile,Co.opSmile,Co.opSmile,,,1,27,Generated from brands_to_crawl.txt
+Marukame Udon,Marukame Udon,Marukame Udon,,,1,28,Generated from brands_to_crawl.txt
+Mì Cay Sasin,Mì Cay Sasin,Mì Cay Sasin,,,1,29,Generated from brands_to_crawl.txt
+Mì Cay Seoul,Mì Cay Seoul,Mì Cay Seoul,,,1,30,Generated from brands_to_crawl.txt
+Nét Huế,Nét Huế,Nét Huế,,,1,31,Generated from brands_to_crawl.txt
+Phở 24,Phở 24,Phở 24,,,1,32,Generated from brands_to_crawl.txt
+Sukiya,Sukiya,Sukiya,,,1,33,Generated from brands_to_crawl.txt
+Tokyo Deli,Tokyo Deli,Tokyo Deli,,,1,34,Generated from brands_to_crawl.txt
+TH true mart,TH true mart,TH true mart,,,1,35,Generated from brands_to_crawl.txt
+FujiMart,FujiMart,FujiMart,,,1,36,Generated from brands_to_crawl.txt
+LanChi Mart,LanChi Mart,LanChi Mart,,,1,37,Generated from brands_to_crawl.txt
+Givral Bakery,Givral Bakery,Givral Bakery,,,1,38,Generated from brands_to_crawl.txt
+Savouré Bakery,Savouré Bakery,Savouré Bakery,,,1,39,Generated from brands_to_crawl.txt
+Chagee,Chagee,Chagee,,,1,40,Generated from brands_to_crawl.txt
+Comebuy,Comebuy,Comebuy,,,1,41,Generated from brands_to_crawl.txt
+Heekcaa,Heekcaa,Heekcaa,,,1,42,Generated from brands_to_crawl.txt
+Hồng Trà Bông Trà,Hồng Trà Bông Trà,Hồng Trà Bông Trà,,,1,43,Generated from brands_to_crawl.txt
+Juice Box,Juice Box,Juice Box,,,1,44,Generated from brands_to_crawl.txt
+LaSiMi,LaSiMi,LaSiMi,,,1,45,Generated from brands_to_crawl.txt
+Là Việt Coffee,Là Việt Coffee,Là Việt Coffee,,,1,46,Generated from brands_to_crawl.txt
+Oola,Oola,Oola,,,1,47,Generated from brands_to_crawl.txt
+R&B Tea,R&B Tea,R&B Tea,,,1,48,Generated from brands_to_crawl.txt
+Rang Rang Coffee,Rang Rang Coffee,Rang Rang Coffee,,,1,49,Generated from brands_to_crawl.txt
+Smoovie,Smoovie,Smoovie,,,1,50,Generated from brands_to_crawl.txt
+Sunday Basic,Sunday Basic,Sunday Basic,,,1,51,Generated from brands_to_crawl.txt
+The Alley,The Alley,The Alley,,,1,52,Generated from brands_to_crawl.txt
+Three O'Clock,Three O'Clock,Three O'Clock,,,1,53,Generated from brands_to_crawl.txt
+Tiger Sugar,Tiger Sugar,Tiger Sugar,,,1,54,Generated from brands_to_crawl.txt
+Tươi Juice,Tươi Juice,Tươi Juice,,,1,55,Generated from brands_to_crawl.txt
+Xing Fu Tang,Xing Fu Tang,Xing Fu Tang,,,1,56,Generated from brands_to_crawl.txt
+Yi He Tang,Yi He Tang,Yi He Tang,,,1,57,Generated from brands_to_crawl.txt
+ADCBook,ADCBook,ADCBook,,,1,58,Generated from brands_to_crawl.txt
+Nhã Nam,Nhã Nam,Nhã Nam,,,1,59,Generated from brands_to_crawl.txt
+Nhà sách Cá Chép,Nhà sách Cá Chép,Nhà sách Cá Chép,,,1,60,Generated from brands_to_crawl.txt
+Biti's Hunter,Biti's Hunter,Biti's Hunter,,,1,61,Generated from brands_to_crawl.txt
+Nem Fashion,Nem Fashion,Nem Fashion,,,1,62,Generated from brands_to_crawl.txt
+Ashima,Ashima,Ashima,,,1,63,Generated from brands_to_crawl.txt
+BoGi Pizza,BoGi Pizza,BoGi Pizza,,,1,64,Generated from brands_to_crawl.txt
+Buk Buk,Buk Buk,Buk Buk,,,1,65,Generated from brands_to_crawl.txt
+Capricciosa,Capricciosa,Capricciosa,,,1,66,Generated from brands_to_crawl.txt
+Chang Kang Kung,Chang Kang Kung,Chang Kang Kung,,,1,67,Generated from brands_to_crawl.txt
+Cơm Niêu Sài Gòn,Cơm Niêu Sài Gòn,Cơm Niêu Sài Gòn,,,1,68,Generated from brands_to_crawl.txt
+Daruma,Daruma,Daruma,,,1,69,Generated from brands_to_crawl.txt
+Dodo Pizza,Dodo Pizza,Dodo Pizza,,,1,70,Generated from brands_to_crawl.txt
+Hoàng Yến Buffet,Hoàng Yến Buffet,Hoàng Yến Buffet,,,1,71,Generated from brands_to_crawl.txt
+Hoàng Yến Cuisine,Hoàng Yến Cuisine,Hoàng Yến Cuisine,,,1,72,Generated from brands_to_crawl.txt
+Hoàng Yến Hotpot,Hoàng Yến Hotpot,Hoàng Yến Hotpot,,,1,73,Generated from brands_to_crawl.txt
+Hutong,Hutong,Hutong,,,1,74,Generated from brands_to_crawl.txt
+iSushi,iSushi,iSushi,,,1,75,Generated from brands_to_crawl.txt
+Khao Lao,Khao Lao,Khao Lao,,,1,76,Generated from brands_to_crawl.txt
+Kpub,Kpub,Kpub,,,1,77,Generated from brands_to_crawl.txt
+Meiwei,Meiwei,Meiwei,,,1,78,Generated from brands_to_crawl.txt
+Pepper Lunch,Pepper Lunch,Pepper Lunch,,,1,79,Generated from brands_to_crawl.txt
+Phở Thìn by Sol,Phở Thìn by Sol,Phở Thìn by Sol,,,1,80,Generated from brands_to_crawl.txt
+Quán Bụi,Quán Bụi,Quán Bụi,,,1,81,Generated from brands_to_crawl.txt
+San Fu Lou,San Fu Lou,San Fu Lou,,,1,82,Generated from brands_to_crawl.txt
+Shogun,Shogun,Shogun,,,1,83,Generated from brands_to_crawl.txt
+Sumo Yakiniku,Sumo Yakiniku,Sumo Yakiniku,,,1,84,Generated from brands_to_crawl.txt
+Sushi Kei,Sushi Kei,Sushi Kei,,,1,85,Generated from brands_to_crawl.txt
+Tasaki BBQ,Tasaki BBQ,Tasaki BBQ,,,1,86,Generated from brands_to_crawl.txt
+Wrap & Roll,Wrap & Roll,Wrap & Roll,,,1,87,Generated from brands_to_crawl.txt
