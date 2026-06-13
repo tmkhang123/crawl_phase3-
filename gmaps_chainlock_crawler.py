@@ -898,6 +898,21 @@ async def open_worker_session(playwright, stealth: Stealth, args) -> dict[str, A
     }
 
 
+async def verify_playwright_browser(args) -> None:
+    try:
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(headless=args.headless)
+            await browser.close()
+    except Exception as exc:
+        message = short_error(exc)
+        raise SystemExit(
+            "Playwright Chromium is not installed or cannot be launched.\n"
+            "Run this command, then crawl again:\n\n"
+            "    python -m playwright install chromium\n\n"
+            f"Original error: {message}"
+        ) from exc
+
+
 async def close_worker_session(session: dict[str, Any] | None) -> None:
     if not session:
         return
@@ -1164,6 +1179,7 @@ def parse_args() -> argparse.Namespace:
 
 
 async def main_async(args: argparse.Namespace) -> None:
+    await verify_playwright_browser(args)
     registry = load_registry(args.registry)
     configs = resolve_chains(args.chains, registry)
     regions = load_regions(args.regions, 0 if args.sample_regions else args.limit_regions)

@@ -342,6 +342,20 @@ python -m pip install -r requirements.txt
 python -m playwright install chromium
 ```
 
+Nếu thấy lỗi kiểu này:
+
+```text
+BrowserType.launch: Executable doesn't exist
+```
+
+thì máy chưa cài Chromium cho Playwright. Chạy:
+
+```powershell
+python -m playwright install chromium
+```
+
+Nếu đã lỡ chạy ra nhiều file CSV rỗng/progress đủ 696 vùng, xoá folder `output/` rồi chạy lại từ đầu. Không resume trên output đó.
+
 ## Chạy Thử
 
 Nên chạy thử vài vùng trước:
