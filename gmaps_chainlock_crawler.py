@@ -686,10 +686,16 @@ def is_valid_name(config: ChainConfig, name: str) -> bool:
 
 
 async def block_resources(route):
-    if route.request.resource_type in {"image", "media", "font"}:
-        await route.abort()
-    else:
-        await route.continue_()
+    try:
+        if route.request.resource_type in {"image", "media", "font"}:
+            await route.abort()
+        else:
+            await route.continue_()
+    except Exception:
+        # A page can close while Playwright still has route callbacks in flight.
+        # Ignore these cleanup races so a completed/rotated browser session does
+        # not crash the whole crawl.
+        pass
 
 
 async def accept_consent(page) -> None:
@@ -915,6 +921,10 @@ async def close_worker_session(session: dict[str, Any] | None) -> None:
     if not session:
         return
     try:
+        for page_key in ("search_page", "detail_page"):
+            page = session.get(page_key)
+            if page:
+                await page.unroute_all(behavior="ignoreErrors")
         await session["browser"].close()
     except Exception:
         pass
