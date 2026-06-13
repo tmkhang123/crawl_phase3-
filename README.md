@@ -10,6 +10,8 @@ python run_free_crawl.py
 
 Không chạy trực tiếp `gmaps_chainlock_crawler.py` nếu không được yêu cầu.
 
+Bản này là bản free/no-proxy. Không cần proxy key, và crawler sẽ bỏ qua các biến môi trường proxy/CKEY nếu máy đang có sẵn.
+
 ## Danh Sách Brand Theo Ngành
 
 Format:

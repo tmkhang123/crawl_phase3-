@@ -25,9 +25,7 @@ FIELDNAMES = ["brand_id", "name", "address", "city", "province", "lat", "lng"]
 DEFAULT_REGISTRY = Path(__file__).resolve().parent / "brand_registry.csv"
 DEFAULT_REGIONS = Path(__file__).resolve().parent / "districts.json"
 DEFAULT_OUTPUT = Path(__file__).resolve().parent / "output"
-DEFAULT_ENV_FILES = [
-    Path(__file__).resolve().parent / ".env",
-]
+DEFAULT_ENV_FILES: list[Path] = []
 
 for stream in (sys.stdout, sys.stderr):
     if hasattr(stream, "reconfigure"):
@@ -1204,11 +1202,13 @@ async def main_async(args: argparse.Namespace) -> None:
 
 def main() -> None:
     args = parse_args()
-    load_env_files()
-    args.proxy_url = resolve_proxy_url(args.proxy_url)
-    args.proxy_config = build_proxy_config(args.proxy_url)
-    args.ckey_proxy_key = ckey_proxy_key_from_args(args)
-    args.ckey_api_key = ckey_api_key_from_args(args)
+    # Free crawl kit intentionally ignores all proxy/CKEY environment variables.
+    # This keeps helper runs simple and prevents stale proxy keys from breaking
+    # the crawl or creating fake progress.
+    args.proxy_url = ""
+    args.proxy_config = None
+    args.ckey_proxy_key = ""
+    args.ckey_api_key = ""
     args.ckey_api_url = (args.ckey_api_url or os.environ.get("GMAPS_CKEY_API_URL") or "https://ckey.vn/api/getproxyxoay").strip()
     args.ckey_nhamang = (args.ckey_nhamang or os.environ.get("GMAPS_CKEY_NHAMANG") or "Random").strip()
     args.ckey_tinhthanh = (args.ckey_tinhthanh or os.environ.get("GMAPS_CKEY_TINHTHANH") or "0").strip()
