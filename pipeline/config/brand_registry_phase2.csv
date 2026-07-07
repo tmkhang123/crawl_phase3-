@@ -1,0 +1,70 @@
+target_chain,search_query,name_aliases,name_blacklist,expected_count,concurrency,priority,notes
+KFC,KFC,kfc|kentucky fried chicken,, ,2,1,Phase 2 QSR
+Lotteria,Lotteria,lotteria,, ,2,1,Phase 2 QSR
+Jollibee,Jollibee,jollibee,, ,2,1,Phase 2 QSR
+Pizza Hut,Pizza Hut,pizza hut,, ,2,1,Phase 2 QSR
+Domino's Pizza,Domino's Pizza,domino's pizza|dominos pizza|domino pizza,, ,2,1,Phase 2 QSR
+Texas Chicken,Texas Chicken,texas chicken|church's texas chicken,, ,2,1,Phase 2 QSR
+Popeyes,Popeyes,popeyes|popeyes louisiana kitchen,, ,2,1,Phase 2 QSR
+McDonald's,McDonald's,mcdonald's|mcdonalds|mc donald's|mc donalds,, ,2,1,Phase 2 QSR
+Burger King,Burger King,burger king,, ,2,1,Phase 2 QSR
+The Pizza Company,The Pizza Company,the pizza company|pizza company,, ,2,1,Phase 2 QSR
+Gogi House,Gogi House,gogi house|gogi,, ,2,2,Phase 2 restaurant
+Kichi-Kichi,Kichi-Kichi,kichi-kichi|kichi kichi|kichi,, ,2,2,Phase 2 restaurant
+Manwah,Manwah,manwah,, ,2,2,Phase 2 restaurant
+Sumo BBQ,Sumo BBQ,sumo bbq|sumobbq,, ,2,2,Phase 2 restaurant
+King BBQ,King BBQ,king bbq|kingbbq,, ,2,2,Phase 2 restaurant
+Hotpot Story,Hotpot Story,hotpot story,, ,2,2,Phase 2 restaurant
+Haidilao,Haidilao,haidilao|hai di lao,, ,2,2,Phase 2 restaurant
+Al Fresco's,Al Fresco's,al fresco's|alfresco's|al frescos|alfrescos,, ,2,2,Phase 2 restaurant
+Pizza 4P's,Pizza 4P's,pizza 4p's|pizza 4ps|pizza 4p,, ,2,2,Phase 2 restaurant
+Sushi Tei,Sushi Tei,sushi tei,, ,2,2,Phase 2 restaurant
+ThaiExpress,ThaiExpress,thaiexpress|thai express,, ,2,2,Phase 2 restaurant
+Crystal Jade,Crystal Jade,crystal jade,, ,2,2,Phase 2 restaurant
+Tous les Jours,Tous les Jours,tous les jours|touslesjours,, ,2,3,Phase 2 bakery dessert
+Paris Baguette,Paris Baguette,paris baguette,, ,2,3,Phase 2 bakery dessert
+BreadTalk,BreadTalk,breadtalk|bread talk,, ,2,3,Phase 2 bakery dessert
+ABC Bakery,ABC Bakery,abc bakery,, ,2,3,Phase 2 bakery dessert
+Dunkin',Dunkin',dunkin'|dunkin|dunkin donuts|dunkin' donuts,, ,2,3,Phase 2 bakery dessert
+Baskin Robbins,Baskin Robbins,baskin robbins|baskin-robbins,, ,2,3,Phase 2 bakery dessert
+Dairy Queen,Dairy Queen,dairy queen,, ,2,3,Phase 2 bakery dessert
+Bonchon,Bonchon,bonchon,, ,2,3,Phase 2 bakery dessert
+Ding Tea,Ding Tea,ding tea|dingtea,, ,2,4,Phase 2 drinks
+Royaltea,Royaltea,royaltea|royal tea,, ,2,4,Phase 2 drinks
+Bobapop,Bobapop,bobapop|boba pop,, ,2,4,Phase 2 drinks
+Sharetea,Sharetea,sharetea|share tea,, ,2,4,Phase 2 drinks
+MayCha,MayCha,maycha|may cha,, ,2,4,Phase 2 drinks
+Chuk Chuk,Chuk Chuk,chuk chuk|chukchuk,, ,2,4,Phase 2 drinks
+Passio,Passio,passio,, ,2,4,Phase 2 drinks
+Milano Coffee,Milano Coffee,milano coffee|milano cafe,, ,2,4,Phase 2 drinks
+Oromia Coffee,Oromia Coffee,oromia coffee|oromia cafe,, ,2,4,Phase 2 drinks
+Effoc Coffee,Effoc Coffee,effoc coffee|effoc cafe,, ,2,4,Phase 2 drinks
+Gemini Coffee,Gemini Coffee,gemini coffee|gemini cafe,, ,2,4,Phase 2 drinks
+Viva Star Coffee,Viva Star Coffee,viva star coffee|vivastar coffee|viva star,, ,2,4,Phase 2 drinks
+The Gioi Di Dong,The Gioi Di Dong,the gioi di dong|thế giới di động|tgdd,, ,2,5,Phase 2 electronics
+Dien May Xanh,Dien May Xanh,dien may xanh|điện máy xanh|dmx,, ,2,5,Phase 2 electronics
+FPT Shop,FPT Shop,fpt shop|fptshop,, ,2,5,Phase 2 electronics
+CellphoneS,CellphoneS,cellphones|cellphone s|cellphoneS,, ,2,5,Phase 2 electronics
+Hoang Ha Mobile,Hoang Ha Mobile,hoang ha mobile|hoàng hà mobile,, ,2,5,Phase 2 electronics
+Viettel Store,Viettel Store,viettel store,, ,2,5,Phase 2 electronics
+Di Dong Viet,Di Dong Viet,di dong viet|di động việt,, ,2,5,Phase 2 electronics
+TopZone,TopZone,topzone|top zone,, ,2,5,Phase 2 electronics
+Con Cung,Con Cung,con cung|concung,, ,2,6,Phase 2 mother baby health
+Kids Plaza,Kids Plaza,kids plaza,, ,2,6,Phase 2 mother baby health
+Bibo Mart,Bibo Mart,bibo mart|bibomart,, ,2,6,Phase 2 mother baby health
+AVAKids,AVAKids,avakids|ava kids,, ,2,6,Phase 2 mother baby health
+Medicare,Medicare,medicare,, ,2,6,Phase 2 mother baby health
+Hasaki,Hasaki,hasaki,, ,2,6,Phase 2 mother baby health
+Beauty Box,Beauty Box,beauty box,, ,2,6,Phase 2 mother baby health
+Sociolla,Sociolla,sociolla,, ,2,6,Phase 2 mother baby health
+Yody,Yody,yody,, ,2,7,Phase 2 fashion lifestyle
+Canifa,Canifa,canifa,, ,2,7,Phase 2 fashion lifestyle
+Routine,Routine,routine,, ,2,7,Phase 2 fashion lifestyle
+Coolmate,Coolmate,coolmate,, ,2,7,Phase 2 fashion lifestyle
+Owen,Owen,owen,, ,2,7,Phase 2 fashion lifestyle
+An Phuoc,An Phuoc,an phuoc|an phước,, ,2,7,Phase 2 fashion lifestyle
+PNJ,PNJ,pnj|phu nhuan jewelry|phú nhuận jewelry,, ,2,7,Phase 2 fashion lifestyle
+DOJI,DOJI,doji,, ,2,7,Phase 2 fashion lifestyle
+Miniso,Miniso,miniso,, ,2,7,Phase 2 fashion lifestyle
+Daiso,Daiso,daiso,, ,2,7,Phase 2 fashion lifestyle
+Uncle Bills,Uncle Bills,uncle bills|uncle bill's,, ,2,7,Phase 2 fashion lifestyle

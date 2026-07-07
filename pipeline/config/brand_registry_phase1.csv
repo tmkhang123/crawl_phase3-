@@ -1,0 +1,47 @@
+target_chain,search_query,name_aliases,name_blacklist,expected_count,concurrency,priority,notes
+WinMart,WinMart,winmart,winmart+|winmart plus|winmartplus|winmart +|win mart+|win mart +|wm+|winlife|win life|mini winmart|mini win mart|kho,130+,2,99,Proxy pilot completed 696 district regions; do not recrawl unless QA proves missing.
+WinMart+,WinMart+,winmart+|winmart plus|winmartplus|wm+,,4500+,2,99,Proxy pilot completed 696 district regions; GotIt address list is QA only because it lacks coordinates.
+Bách Hóa Xanh,Bách Hóa Xanh,bách hóa xanh|bach hoa xanh|bhx,,941,2,99,Proxy smoke only; user confirmed official current count is about 941, so deprioritize recrawl.
+Coopmart,Coopmart,coopmart|co.opmart|co opmart|co.op mart,,150,2,99,Phase 1 top-up candidate if recrawling more phase 1 brands.
+Coop Food,Coop Food,coop food|coopfood|co.op food,, ,2,7,
+Kingfoodmart,Kingfoodmart,kingfoodmart|king food mart,, ,2,7,
+Satrafoods,Satrafoods,satrafoods|satra food|satra foods,, ,2,7,
+Vissan,Vissan cửa hàng,vissan,đại lý|nha phan phoi|nhà phân phối|kho|cong ty|công ty, ,2,8,High noise risk: distribution points may not be retail stores.
+Circle K,Circle K,circle k|circlek,, ,3,8,
+GS25,GS25,gs25|gs 25,, ,3,8,
+Family Mart,Family Mart,family mart|familymart|famima,, ,2,98,Currently running on Colab; do not run duplicate.
+7-Eleven,7-Eleven,7-eleven|7eleven|seven eleven|seveneleven,, ,2,98,Currently running on Colab; do not run duplicate.
+Ministop,Ministop,ministop|mini stop,, ,2,98,Currently running on Colab; do not run duplicate.
+Cheers,Cheers convenience store Vietnam,cheers,bar|pub|beer|bia|craft|steak|restaurant|nhà hàng|nha hang, ,2,97,Already has Colab file; high noise risk.
+Lotte Mart,Lotte Mart,lotte mart|lottemart,, ,2,97,Already has Colab file.
+AEON Mall,AEON Mall,aeon mall|aeonmall,, ,2,97,Already has Colab file.
+AEON MaxValu,AEON MaxValu,aeon maxvalu|maxvalu|max valu,, ,2,97,Already has Colab file.
+MM Mega Market,MM Mega Market,mm mega market|mega market,, ,2,97,Already has Colab file.
+GO!,GO! supermarket,go!|go supermarket|go mall,mini go|mini go!, ,2,97,Already has Colab file; blacklist mini Go to avoid cross-chain matches.
+mini Go!,mini Go!,mini go!|mini go,, ,2,97,Already has Colab file.
+Tops Market,Tops Market,tops market|top market,, ,2,97,Already has Colab file.
+Annam Gourmet,Annam Gourmet,annam gourmet|annam,, ,2,97,Already has Colab file.
+Farmers Market,Farmers Market,farmers market|farmer market,, ,2,1,
+Nhà thuốc An Khang,Nhà thuốc An Khang,nhà thuốc an khang|nha thuoc an khang|an khang,, ,3,9,
+Nhà thuốc Long Châu,Nhà thuốc Long Châu,nhà thuốc long châu|nha thuoc long chau|long châu|long chau,, ,3,9,
+Pharmacity,Pharmacity,pharmacity|pharma city,, ,3,9,
+Guardian,Guardian Vietnam,guardian,game|galaxy|restaurant|hotel, ,2,9,
+Watsons,Watsons Vietnam,watsons|watson,, ,2,1,
+Matsumoto Kiyoshi,Matsumoto Kiyoshi,matsumoto kiyoshi|matsukiyo,, ,2,1,
+Highlands Coffee,Highlands Coffee,highlands coffee|highlands,, ,3,6,
+The Coffee House,The Coffee House,the coffee house|coffee house,, ,2,6,
+Phúc Long,Phúc Long,phúc long|phuc long|phúc long coffee|phuc long coffee,, ,2,5,
+Trung Nguyên Legend,Trung Nguyên Legend,trung nguyên legend|trung nguyen legend,, ,2,5,
+Trung Nguyên E-Coffee,Trung Nguyên E-Coffee,trung nguyên e-coffee|trung nguyen e-coffee|trung nguyên e coffee|trung nguyen e coffee,, ,2,6,
+Phê La,Phê La,phê la|phe la,, ,2,4,
+Katinat,Katinat,katinat,, ,2,4,
+Starbucks,Starbucks,starbucks|starbucks coffee,, ,2,5,
+Cộng Cà Phê,Cộng Cà Phê,cộng cà phê|cong ca phe|cong cafe,, ,2,2,
+Cheese Coffee,Cheese Coffee,cheese coffee,, ,2,2,
+Guta Cafe,Guta Cafe,guta cafe|guta coffee|guta,, ,2,3,
+Aha Cafe,Aha Cafe,aha cafe|aha coffee,, ,2,3,
+Kafa Café,Kafa Cafe,kafa cafe|kafa café,, ,2,2,
+Mixue,Mixue,mixue|mi xue|蜜雪冰城,, ,3,10,
+Gong Cha,Gong Cha,gong cha|gongcha,, ,2,3,
+Koi Thé,Koi Thé,koi thé|koi the|koi cafe|koithe,, ,2,4,
+Tocotoco,Tocotoco,tocotoco|toco toco|toco,, ,3,10,

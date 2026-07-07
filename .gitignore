@@ -5,3 +5,7 @@ __pycache__/
 
 output/*
 !output/.gitkeep
+pipeline/output/
+pipeline/tools/
+pipeline/**/__pycache__/
+pipeline/**/*.pyc

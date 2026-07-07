@@ -1,0 +1,132 @@
+{
+  "default": {
+    "non_store_action": "suspect",
+    "foreign_country_keywords": [
+      "thai lan",
+      "thailand",
+      "campuchia",
+      "cambodia",
+      "laos",
+      "nuoc lao",
+      "phnom penh",
+      "ubon ratchathani",
+      "bangkok"
+    ],
+    "non_store_keywords": [
+      "kho",
+      "kho hang",
+      "van phong",
+      "cong ty",
+      "head office",
+      "office",
+      "tru so",
+      "phong nhan su",
+      "tuyen dung"
+    ]
+  },
+  "brand_overrides": {
+    "maycha": {
+      "aliases": ["maycha", "may cha", "tra sua maycha", "tra sua may cha"],
+      "reject_keywords": [
+        "may cha lua",
+        "may cha gao",
+        "nha may cha",
+        "may cha san",
+        "may cha cong nghiep",
+        "may cha phu",
+        "may cha hoang",
+        "may cha thanh"
+      ],
+      "required_positive_keywords": ["tra sua", "milk tea", "cafe", "tiem tra", "tea"],
+      "non_store_action": "reject"
+    },
+    "aeon_mall": {
+      "aliases": ["aeon mall", "tttm aeon mall"],
+      "container_brand": true,
+      "container_keep_prefixes": ["aeon mall", "tttm aeon mall"],
+      "container_reject_keywords": [
+        "cong",
+        "bai dau",
+        "parking",
+        "gate",
+        "timezone",
+        "miniso",
+        "muji",
+        "uniqlo",
+        "garmin",
+        "samsung",
+        "levi",
+        "owen",
+        "rabity",
+        "tinistore",
+        "california fitness"
+      ],
+      "non_store_action": "reject"
+    },
+    "lotte_mart": {
+      "aliases": ["lotte mart", "lottemart"],
+      "container_brand": true,
+      "container_keep_prefixes": ["lotte mart", "lottemart", "sie u thi lotte mart", "sieu thi lotte mart"],
+      "container_reject_keywords": ["lotte mall", "food court", "parking", "bai dau", "van phong"]
+    },
+    "go": {
+      "aliases": ["go", "go mall", "go!", "big c"],
+      "container_brand": true,
+      "container_keep_prefixes": ["go", "go!", "big c", "sieu thi go", "sieu thi big c"],
+      "container_reject_keywords": ["food court", "parking", "bai dau", "cong"]
+    },
+    "coopmart": {
+      "aliases": ["coopmart", "co opmart", "co.opmart", "co op mart", "co.op mart"],
+      "container_brand": true,
+      "container_keep_prefixes": [
+        "coopmart",
+        "co opmart",
+        "co.opmart",
+        "co op mart",
+        "co.op mart",
+        "sieu thi co opmart",
+        "sieu thi co.opmart",
+        "sieu thi co op mart",
+        "sieu thi co.op mart",
+        "sieu thi coopmart"
+      ],
+      "container_reject_keywords": ["food court", "parking", "bai dau", "cong"]
+    },
+    "mm_mega_market": {
+      "aliases": ["mm mega market", "mega market", "metro"],
+      "container_brand": true,
+      "container_keep_prefixes": ["mm mega market", "mega market"],
+      "container_reject_keywords": ["satellite office", "office", "van phong"]
+    },
+    "winmart": {
+      "aliases": ["winmart", "win mart", "sieu thi winmart", "sieu thi win mart"],
+      "blacklist": ["winmart+", "winmart plus", "vinmart+", "vm+"],
+      "require_alias_as_main_entity": true,
+      "main_entity_allowed_prefixes": [
+        "sieu thi",
+        "cua hang",
+        "ch",
+        "cua hang tien loi",
+        "sieu thi mini",
+        "mini supermarket"
+      ],
+      "non_store_action": "suspect"
+    },
+    "winmart_plus": {
+      "aliases": ["winmart+", "win mart+", "winmart plus", "win mart plus", "winmartplus", "vinmart+", "vm+"],
+      "require_alias_as_main_entity": true,
+      "main_entity_allowed_prefixes": [
+        "sieu thi",
+        "cua hang",
+        "ch",
+        "cua hang tien loi",
+        "sieu thi mini",
+        "mini supermarket"
+      ],
+      "non_store_action": "suspect"
+    },
+    "cong_ca_phe": {
+      "aliases": ["cong ca phe", "cong cafe", "cong ca fe", "cong coffee", "cong caphe", "cong cafe", "cong ca phe", "cộng cà phê", "cộng cafe"]
+    }
+  }
+}

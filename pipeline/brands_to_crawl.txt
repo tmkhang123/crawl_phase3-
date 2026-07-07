@@ -1,0 +1,8 @@
+# One brand per line.
+# Lines starting with # are ignored.
+#
+# Example:
+# KFC
+# Lotteria
+# Highlands Coffee
+
