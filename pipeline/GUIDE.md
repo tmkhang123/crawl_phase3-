@@ -81,13 +81,14 @@ python pipeline\run_from_txt.py
 ```
 
 Lenh nay se doc `pipeline/brands_to_crawl.txt`.
-Mac dinh discovery se phu toan quoc theo kieu nhe:
+Mac dinh discovery se phu toan quoc theo kieu geo/radius nhe:
 
 ```text
-63 tinh/thanh x toi thieu 3 diem truy van moi tinh
+63 tinh/thanh x 3 diem toa do moi tinh, query Brand quanh toa do do
 ```
 
 No nhe hon 696 quan/huyen, nhung phu rong hon viec chi quet HCM/HN/Da Nang.
+Discovery nay co `-geo`, `-radius` va `-fast-mode`, khong phai text-query huyen/quan.
 Sau khi chay xong, script tao:
 
 ```text
@@ -127,10 +128,10 @@ Buoc 1: discovery nhe.
 python pipeline\run_discovery.py --chains "KFC,Lotteria,Highlands Coffee"
 ```
 
-Discovery mac dinh phu toan quoc theo kieu:
+Discovery mac dinh phu toan quoc theo kieu geo/radius:
 
 ```text
-63 tinh/thanh x toi thieu 3 diem truy van moi tinh
+63 tinh/thanh x 3 diem toa do moi tinh
 ```
 
 Discovery se tao:

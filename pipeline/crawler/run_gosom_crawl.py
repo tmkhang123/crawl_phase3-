@@ -343,6 +343,39 @@ def grid_regions(path: Path, cities: list[str], sample: int, limit: int, seed: i
     return regions
 
 
+def geo_list_regions(path: Path, sample: int, limit: int, seed: int) -> list[dict[str, object]]:
+    payload = json.loads(path.read_text(encoding="utf-8-sig"))
+    if isinstance(payload, dict):
+        regions = payload.get("regions", [])
+    else:
+        regions = payload
+
+    result = []
+    for idx, row in enumerate(regions, start=1):
+        if not isinstance(row, dict):
+            continue
+        if row.get("lat") in (None, "") or row.get("lng") in (None, ""):
+            continue
+        result.append(
+            {
+                "id": str(row.get("id") or f"geo_{idx:03d}"),
+                "label": str(row.get("label") or row.get("city_name") or row.get("province") or f"geo_{idx:03d}"),
+                "city_key": str(row.get("city_key") or "national_lite_geo"),
+                "city_name": str(row.get("city_name") or row.get("province") or row.get("label") or "national_lite_geo"),
+                "lat": float(row.get("lat")),
+                "lng": float(row.get("lng")),
+                "query_suffix": str(row.get("query_suffix") or ""),
+            }
+        )
+
+    if sample:
+        rng = random.Random(seed)
+        result = rng.sample(result, min(sample, len(result)))
+    elif limit:
+        result = result[:limit]
+    return result
+
+
 def gridbox_regions(cities: list[str], sample: int, limit: int, seed: int) -> list[dict[str, object]]:
     regions = []
     for city_key in cities:
@@ -471,11 +504,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--cities", default="hcm", help=f"Comma-separated city keys for center/grid mode: {','.join(CITY_CENTERS)}")
     parser.add_argument(
         "--region-mode",
-        choices=("center", "grid", "gridbox", "district"),
+        choices=("center", "grid", "gridbox", "district", "geo-list"),
         default="center",
-        help="center = one point per city; grid = prebuilt cells; gridbox = gosom native bbox grid; district = district text queries.",
+        help="center = one point per city; grid = prebuilt cells; geo-list = custom lat/lng list; gridbox = gosom native bbox grid; district = district text queries.",
     )
     parser.add_argument("--grid-regions", type=Path, default=DEFAULT_GRID_REGIONS)
+    parser.add_argument("--geo-regions", type=Path, default=DEFAULT_GRID_REGIONS)
     parser.add_argument("--districts", type=Path, default=DEFAULT_DISTRICTS)
     parser.add_argument("--sample-regions", type=int, default=0, help="Smoke only: random sample N regions after filter.")
     parser.add_argument("--limit-regions", type=int, default=0, help="Smoke only: first N regions after filter.")
@@ -515,6 +549,9 @@ def main() -> int:
     if args.region_mode == "district":
         cities = ["all_vietnam"]
         regions = district_regions(args.districts, args.sample_regions, args.limit_regions, args.sample_seed)
+    elif args.region_mode == "geo-list":
+        cities = ["national_lite_geo"]
+        regions = geo_list_regions(args.geo_regions, args.sample_regions, args.limit_regions, args.sample_seed)
     else:
         cities = [item.strip() for item in args.cities.split(",") if item.strip()]
         bad_cities = [city for city in cities if city not in CITY_CENTERS]
@@ -550,6 +587,8 @@ def main() -> int:
     elif args.region_mode == "district":
         print(f"note=district mode runs one text query per district/province label, selected_regions={len(regions)}.")
         print("note=district mode disables gosom fast-mode automatically because fast-mode requires geo coordinates.")
+    elif args.region_mode == "geo-list":
+        print("note=geo-list mode uses custom lat/lng points with radius and fast-mode.")
     elif args.region_mode == "gridbox":
         print("note=gridbox mode uses gosom native -grid-bbox/-grid-cell, one process per city box.")
     else:

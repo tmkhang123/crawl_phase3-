@@ -49,11 +49,13 @@ python pipeline\run_from_txt.py
 ```
 
 Lenh nay tu doc file txt va chay discovery.
-Discovery mac dinh phu toan quoc theo kieu nhe:
+Discovery mac dinh phu toan quoc theo kieu geo/radius nhe:
 
 ```text
-63 tinh/thanh x toi thieu 3 diem truy van moi tinh
+63 tinh/thanh x 3 diem toa do moi tinh, query Brand quanh toa do do
 ```
+
+Discovery nay co `-geo`, `-radius` va `-fast-mode`, khong phai text-query huyen/quan.
 
 Buoc 1: discovery nhe de xem brand co tin hieu o vung nao.
 
